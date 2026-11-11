@@ -8,7 +8,15 @@
 
 //createApp(App2).mount('#app')
 
-import { createApp } from 'vue'
-import App3 from './App3.vue'
+//import { createApp } from 'vue'
+//import App3 from './App3.vue'
 
-createApp(App3).mount('#app')
+//createApp(App3).mount('#app')
+
+import { createApp } from 'vue'
+import App from './App4.vue'
+import router from './router'
+
+const app = createApp(App)
+app.use(router)
+app.mount('#app')
