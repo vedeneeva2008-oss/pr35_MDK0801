@@ -9,7 +9,7 @@
 <script setup>
 import {useRouter} from 'vue-router'
 
-const router = userRouter()
+const router = useRouter()
 
 const logout = () => {
     localStorage.removeItem('token')
