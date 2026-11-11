@@ -16,12 +16,19 @@
 //createApp(App3).mount('#app')
 
 
+//import { createApp } from 'vue'
+//import App from './App4.vue'
+//import router from './router'
+
+//const app = createApp(App)
+//app.use(router)
+//app.mount('#app')
+
+
 import { createApp } from 'vue'
-import App from './App4.vue'
-import router from './router'
+import App from './App5.vue'
+import router from './pr35(4-5)/router'
 
 const app = createApp(App)
 app.use(router)
 app.mount('#app')
-
-
