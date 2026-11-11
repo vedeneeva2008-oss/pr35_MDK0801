@@ -29,4 +29,4 @@ const login = () => {
 </script>
 <style scoped>
 .page { padding: 20px; font-family: sans-serif; }
-</style>
+</style> 
