@@ -19,7 +19,7 @@ const routes = [
     meta: { requiresAuth: false }
   },
   {
-    path: '/courses/:id',
+    path: '/courses/:id', 
     name: 'CourseDetail',
     component: CoursePage,
     props: true, // Передаем ID как prop
